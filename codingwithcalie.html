@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+<head>
+    <title>Coding with Calie</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--GOOGLE FONTS-->
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+
+    <!--FONT AWESOME CDN-->
+      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!--BOOTSTRAP, JQUERY AND JS CDN-->
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <!--CSS3 animations-->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/css3-animate-it/1.0.3/css/animations.min.css"  rel="stylesheet"/>
+
+    <!--ICON PAGE LOGO LINKS-->
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+      <link rel="manifest" href="/manifest.json">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="theme-color" content="#ffffff">
+
+    <style type="text/css">
+
+    body {
+      background-color: white; /* #4e4b4e   #c3c3c3*/
+      margin-top: -200px;
+    }
+
+    hr {
+      margin-top: 60px;
+      margin-bottom: 30px;
+      border: 1px solid #b1b1b1;
+      width: 70%;
+    }
+
+    h1, h2, h3, h4 ,h6, p {
+      font-family: 'Quicksand';
+    }
+
+    #divWO {
+      font-family: 'Bad SCript';
+    }
+
+/*********NAV BAR DIV*********/
+
+  .icons {
+      float: right;
+      line-height: 80px;
+      font-size: 2em;
+    }
+
+    #titleName {
+      color: #7b2f92;
+      font-family: 'Shadows Into Light';
+      font-size: 3.5em;
+      padding-right: 100px;
+    }
+
+    #titleName:hover {
+      color: #007ea3;
+    }
+
+
+/***********END NAV BAR STYLES**********/
+
+
+/********HEADER DIV*********/
+
+#headerImg {
+  height: 800px;
+  display: block;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 0;
+  box-shadow: 10px 10px 5px grey;
+}
+
+#titleText {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  color: #203040;
+  font-family: 'Arima Madurai';
+  font-size: 10em;
+  text-shadow: 10px 10px 20px white;
+}
+
+  text-shadow {
+    opacity: 0.5;
+  }
+
+
+ #headerTextH3 {
+   position: absolute;
+   top: 500px;
+   width: 100%;
+   left: 0;
+   text-align: center;
+   color: white;
+   font-family: 'Quicksand';
+   font-style: italic;
+ }
+
+ .navbar-header {
+   padding-bottom: 20px;
+ }
+
+/*******END HEADER DIV********/
+
+
+/***********WELL DIV*************/
+
+
+  #tintH3 {
+    color: #007ea3;
+  }
+
+
+/***********END WELL DIV**********/
+
+
+/*******FOOTER DIV************/
+
+  footer {
+     width: 100%;
+     position: absolute;
+     bottom: 0;
+   }
+
+/*******END FOOTER DIV*******/
+
+
+
+/*******MEDIA SCREEN SIZING********/
+
+@media only screen and (max-width: 750px) {
+  #headerImg {
+    height: 600px;
+    display: block;
+    width: 100%;
+    margin: auto;
+    top: 75px;
+    position: relative;
+    margin-bottom: 0;
+    box-shadow: 20px 20px 10px grey;
+  }
+
+  #titleText {
+    position: absolute;
+    top: 125px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    color: #203040;
+    font-family: 'Quicksand';
+    font-size: 8em;
+  }
+
+  #titleName {
+    color: #342553;
+    font-family: 'Quicksand';
+    font-size: 2em;
+    margin-top: 13px;
+    padding-right: 100px;
+  }
+
+  #divWO {
+    font-size: inherit;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  #headerImg {
+    height: 400px;
+    top: 200px;
+  }
+
+  #titleText {
+    top: 125px;
+    font-size: 8em;
+  }
+
+  #titleName {
+    color: #342553;
+    font-size: 2em;
+  }
+
+  #divWO {
+    font-size: inherit;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  #headerImg {
+    height: 360px;
+    top: 200px;
+  }
+
+  #titleText {
+    position: absolute;
+    top: 125px;
+    font-size: 5em;
+  }
+
+  #titleName {
+    color: #342553;
+    margin-left: -10px;
+  }
+
+  #divWO {
+    font-size: inherit;
+  }
+
+}
+
+/******END MEDIA SCREEN SIZING********/
+
+    </style>
+
+</head>
+
+<!--ICON PAGE LOGO LINKS-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<!--START NAV BAR DIV-->
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+
+    <div class="navbar-header pull-left">
+      <a href="#" class="navbar-brand" id="titleName"><i class="fa fa-terminal"></i> Coding with Calie</a>
+    </div>
+
+  </div> <!--END CONTAINER DIV-->
+</nav> <!--END MAIN NAV BAR DIV-->
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+  <!--HEADER DIV-->
+  <div class="relative" id="headerDiv">
+    <img id="headerImg" src="http://i.imgur.com/Np7PURL.png" >
+
+    <h1 id="titleText">Example</h1>
+
+    <h3 id="headerTextH3"><i class="fa fa-paw"></i> Don't be overwhelmed</h3>
+
+  </div>
+
+  <!--END HEADER DIV-->
+
+</body>
+
+<footer class="well">
+
+  <h3 id="divWO">This is meant to be an example, so focus only on what you can <i class="fa fa-wpforms"></i> create.<span id="tintH3">
+    Hint: start from scratch <i class="fa fa-compass")></i> HTML and CSS.</span>
+  </h3>
+
+</footer>
+
+</html>
